@@ -1,14 +1,17 @@
-SwipeView v1.0 - 2012-08-25
+Originally forked from SwipeView v1.0 - 2012-08-25
 ============================
 
 Virtually infinite loop-able horizontal carousel for desktop and mobile browsers.
 
 Read more at [cubiq.org](http://cubiq.org/swipeview)
 
-Gallery Demo: [http://cubiq.org/dropbox/SwipeView/demo/gallery](http://cubiq.org/dropbox/SwipeView/demo/gallery)
+# Why this fork ?
 
-eReader Demo: [http://cubiq.org/dropbox/SwipeView/demo/ereader](http://cubiq.org/dropbox/SwipeView/demo/ereader)
+Need to make a zepto plugin using the original SwipeView , which will have less code and can be called like other Zepto/jQuery 
+plugins. The plain version of SwipeView requires some extra code to be included to make the gallary work.
 
-Inline Demo: [http://cubiq.org/dropbox/SwipeView/demo/inline](http://cubiq.org/dropbox/SwipeView/demo/inline)
+The new plugin should be doing the following
 
-Screencast: [http://www.youtube.com/watch?v=Hhes5JHs8jQ](http://www.youtube.com/watch?v=Hhes5JHs8jQ)
+- Able to call the plugin `swipeView()` on a Zepto collection.
+- Less size than the original SwipeView.js when minified.
+- Well defined API.
