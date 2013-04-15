@@ -3,7 +3,7 @@ Originally forked from SwipeView v1.0 - 2012-08-25
 
 Virtually infinite loop-able horizontal carousel for desktop and mobile browsers.
 
-Read more at [cubiq.org](http://cubiq.org/swipeview)
+Find the original implementation - stand alone [http://cubiq.org/swipeview](http://cubiq.org/swipeview)
 
 # Why this fork ?
 
